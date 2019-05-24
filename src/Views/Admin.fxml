@@ -12,7 +12,7 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
          <children>
-            <MenuBar layoutX="200.0" layoutY="14.0">
+            <MenuBar layoutX="200.0" layoutY="1.0">
               <menus>
                 <Menu mnemonicParsing="false" text="Add User">
                   <items>
@@ -31,13 +31,13 @@
                 </Menu>
               </menus>
             </MenuBar>
-            <TableView layoutX="94.0" layoutY="74.0" prefHeight="380.0" prefWidth="440.0">
+            <TableView layoutX="75.0" layoutY="40.0" prefHeight="400.0" prefWidth="500.0">
               <columns>
-                <TableColumn prefWidth="75.0" text="Username" />
-                <TableColumn prefWidth="75.0" text="Password" />
-                  <TableColumn prefWidth="96.79998779296875" text="Email Address" />
-                  <TableColumn prefWidth="81.5999755859375" text="Is Admin?" />
-                  <TableColumn text="IS PAPIESZ?" />
+                <TableColumn id="id_user" prefWidth="75.0" text="ID" />
+                  <TableColumn id="username" prefWidth="96.79998779296875" text="Username" />
+                  <TableColumn id="password" prefWidth="81.5999755859375" text="Password" />
+                  <TableColumn id="email" text="Email" />
+                  <TableColumn id="admin" prefWidth="75.0" text="Admin" />
               </columns>
             </TableView>
          </children>

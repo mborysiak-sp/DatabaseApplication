@@ -18,7 +18,7 @@ public class Login {
         if (username.getText().equals("user") && password.getText().equals("pass"))
         {
             Stage primaryStage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/Views/Main.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/Views/Admin.fxml"));
             Scene scene = new Scene(root, 640,480);
             primaryStage.setScene(scene);
             primaryStage.show();
