@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.User">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button layoutX="123.0" layoutY="117.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" text="Query" />
+            <Button layoutX="123.0" layoutY="156.0" mnemonicParsing="false" onAction="#useProcedure" text="Procedure" />
+            <Label layoutX="6.0" layoutY="124.0" text="Does something" />
+            <Label layoutX="14.0" layoutY="162.0" text="Gets visits list" />
+            <TableView fx:id="appointmentTable" layoutX="9.0" layoutY="215.0" prefHeight="175.0" prefWidth="618.0">
+              <columns>
+                <TableColumn fx:id="id_pacjent" prefWidth="75.0" text="ID_pacjenta" />
+                <TableColumn fx:id="pacjent_nazwisko" prefWidth="141.60003662109375" text="Nazwisko pacjenta" />
+                  <TableColumn fx:id="data_wizyty" prefWidth="95.199951171875" text="Data" />
+                  <TableColumn fx:id="lekarz_nazwisko" prefWidth="106.39996337890625" text="Nazwisko lekarza" />
+                  <TableColumn fx:id="lekarz_specjalizacja" prefWidth="122.4000244140625" text="Specjalizacja" />
+                  <TableColumn fx:id="id_pokoj" prefWidth="77.5999755859375" text="ID_pokoju" />
+              </columns>
+            </TableView>
+            <Button fx:id="logout" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="38.0" prefWidth="74.0" text="Logout" />
+      </children>
+    </AnchorPane>
+  </children>
+    <stylesheets>
+        <URL value="@Style.css" />
+    </stylesheets>
+</VBox>
