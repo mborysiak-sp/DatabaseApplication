@@ -70,9 +70,9 @@ public class Admin implements Initializable {
             while (rs.next()) {
                 objList.add(new AdminTable(rs.getInt("id_user"), rs.getString("username"), rs.getString("password"), rs.getString("email"), rs.getBoolean("admin")));
             }
-            rs = con.createStatement().executeQuery("SELECT * FROM [logging]");
+            rs = con.createStatement().executeQuery("SELECT id_logging, [date], substring(convert(char(8),[hour],108), 1, 5) as [hour], id_user  FROM [logging]");
             while (rs.next()) {
-                loggingList.add(new LoggingTable(rs.getInt("id_logging"), rs.getDate("date"), rs.getTime("hour"), rs.getInt("id_user")));
+                loggingList.add(new LoggingTable(rs.getInt("id_logging"), rs.getDate("date"), rs.getString("hour"), rs.getInt("id_user")));
             }
             con.close();
         } catch (SQLException exception) {
@@ -162,6 +162,8 @@ public class Admin implements Initializable {
 
     public void logout (ActionEvent event) throws Exception {
         Stage stage = (Stage)adminTable.getScene().getWindow();
-        stage.close();
+        Parent root = FXMLLoader.load(getClass().getResource("/Views/Login.fxml"));
+        Scene scene = new Scene(root, 640, 480);
+        stage.setScene(scene);
     }
 }

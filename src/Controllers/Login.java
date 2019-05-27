@@ -1,25 +1,25 @@
 package Controllers;
 
-import Models.LoggingTable;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
-
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.text.DateFormat;
 
 public class Login {
     @FXML
     private TextField username;
     @FXML
     private PasswordField password;
+    @FXML
+    private Label wrong_password;
 
     public void Login(ActionEvent event) throws Exception {
         try {
@@ -33,24 +33,33 @@ public class Login {
             }
             if (password.getText().equals(gotPassword) && !password.getText().isEmpty()) {
                 recordLog();
-                Stage primaryStage = new Stage();
                 Parent root;
                 Scene scene;
+                Stage primaryStage = (Stage)password.getScene().getWindow();
                 if(gotAdmin == true)
                 {
                     root = FXMLLoader.load(getClass().getResource("/Views/Admin.fxml"));
                     scene = new Scene(root, 1280, 480);
+                    primaryStage.setTitle("【Ａｄｍｉｎ　ｐａｎｅｌ】");
                 }
 
                 else
                 {
                     root = FXMLLoader.load(getClass().getResource("/Views/User.fxml"));
+                    primaryStage.setTitle("【Ｕｓｅｒ　Ｐａｎｅｌ】");
                     scene = new Scene(root, 640, 480);
                 }
                 primaryStage.setScene(scene);
                 primaryStage.show();
+                con.close();
             }
-            con.close();
+            else
+            {
+                wrong_password.setVisible(true);
+                wrong_password.setText("Nieprawidłowe hasło");
+            }
+
+
         } catch (Exception exception) {
             System.out.println(exception);
         }

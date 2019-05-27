@@ -9,7 +9,7 @@ public class DBConnector {
             Connection connection = DriverManager.getConnection("jdbc:sqlserver://"+
                     "localhost\\SQLExpress:1433;databaseName=Project;"+
                     "user=Marcinez;password=2137;");
-            System.out.println("Połączono z bazą danych");
+            //System.out.println("Połączono z bazą danych");
             return connection;
         }
     }

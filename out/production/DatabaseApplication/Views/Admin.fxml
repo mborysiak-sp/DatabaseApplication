@@ -13,13 +13,13 @@
   <children>
     <AnchorPane minHeight="0.0" prefHeight="480.0" prefWidth="1280.0" VBox.vgrow="ALWAYS">
          <children>
-            <TableView fx:id="adminTable" layoutX="75.0" layoutY="40.0" prefHeight="400.0" prefWidth="500.0">
+            <TableView fx:id="adminTable" layoutX="30.0" layoutY="40.0" prefHeight="400.0" prefWidth="545.0">
               <columns>
-                <TableColumn id="id_user" fx:id="col_id_user" prefWidth="34.39996337890625" text="ID" />
-                  <TableColumn id="username" fx:id="col_username" prefWidth="149.6000213623047" text="Username" />
-                  <TableColumn id="password" fx:id="col_password" prefWidth="128.79998779296875" text="Password" />
-                  <TableColumn id="email" fx:id="col_email" prefWidth="134.4000244140625" text="Email" />
-                  <TableColumn id="admin" fx:id="col_admin" prefWidth="50.39996337890625" text="Admin" />
+                <TableColumn id="id_user" fx:id="col_id_user" prefWidth="62.39999008178711" text="ID" />
+                  <TableColumn id="username" fx:id="col_username" prefWidth="122.4000244140625" text="Username" />
+                  <TableColumn id="password" fx:id="col_password" prefWidth="138.40003967285156" text="Password" />
+                  <TableColumn id="email" fx:id="col_email" prefWidth="146.39996337890625" text="Email" />
+                  <TableColumn id="admin" fx:id="col_admin" prefWidth="76.0" text="Admin" />
               </columns>
             </TableView>
             <Button fx:id="remove" layoutX="594.0" layoutY="25.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="30.0" prefWidth="79.0" text="Remove" />
@@ -43,6 +43,6 @@
     </AnchorPane>
   </children>
     <stylesheets>
-        <URL value="@Style.css" />
+        <URL value="@../CSS/Style.css" />
     </stylesheets>
 </VBox>

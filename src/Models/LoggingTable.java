@@ -6,9 +6,9 @@ import java.sql.Time;
 public class LoggingTable {
     private Integer id_logging, id_user;
     private Date date;
-    private Time hour;
+    private String hour;
 
-    public LoggingTable(Integer id_logging, Date date, Time hour, Integer id_user) {
+    public LoggingTable(Integer id_logging, Date date, String hour, Integer id_user) {
         this.id_logging = id_logging;
         this.id_user = id_user;
         this.date = date;
@@ -39,11 +39,11 @@ public class LoggingTable {
         this.date = date;
     }
 
-    public Time getHour() {
+    public String getHour() {
         return hour;
     }
 
-    public void setHour(Time hour) {
+    public void setHour(String hour) {
         this.hour = hour;
     }
 }

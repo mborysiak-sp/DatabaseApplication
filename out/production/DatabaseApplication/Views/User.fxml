@@ -12,25 +12,33 @@
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <Button layoutX="123.0" layoutY="117.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" text="Query" />
-            <Button layoutX="123.0" layoutY="156.0" mnemonicParsing="false" onAction="#useProcedure" text="Procedure" />
-            <Label layoutX="6.0" layoutY="124.0" text="Does something" />
-            <Label layoutX="14.0" layoutY="162.0" text="Gets visits list" />
-            <TableView fx:id="appointmentTable" layoutX="9.0" layoutY="215.0" prefHeight="175.0" prefWidth="618.0">
+            <Button layoutX="123.0" layoutY="117.0" mnemonicParsing="false" onAction="#useQuery" prefHeight="34.0" prefWidth="83.0" text="Query" />
+            <Button layoutX="123.0" layoutY="156.0" mnemonicParsing="false" onAction="#useProcedure" prefHeight="34.0" prefWidth="83.0" text="Procedure" />
+            <Label layoutX="6.0" layoutY="124.0" text="Shows receipts" />
+            <Label layoutX="6.0" layoutY="162.0" prefHeight="22.0" prefWidth="83.0" text="Gets visits list" />
+            <TableView fx:id="appointmentTable" layoutX="9.0" layoutY="215.0" prefHeight="182.0" prefWidth="618.0">
               <columns>
                 <TableColumn fx:id="id_pacjent" prefWidth="75.0" text="ID_pacjenta" />
-                <TableColumn fx:id="pacjent_nazwisko" prefWidth="141.60003662109375" text="Nazwisko pacjenta" />
-                  <TableColumn fx:id="data_wizyty" prefWidth="95.199951171875" text="Data" />
-                  <TableColumn fx:id="lekarz_nazwisko" prefWidth="106.39996337890625" text="Nazwisko lekarza" />
-                  <TableColumn fx:id="lekarz_specjalizacja" prefWidth="122.4000244140625" text="Specjalizacja" />
-                  <TableColumn fx:id="id_pokoj" prefWidth="77.5999755859375" text="ID_pokoju" />
+                <TableColumn fx:id="pacjent_nazwisko" prefWidth="162.4000244140625" text="Nazwisko pacjenta" />
+                  <TableColumn fx:id="data_wizyty" prefWidth="111.20002746582031" text="Data" />
+                  <TableColumn fx:id="lekarz_nazwisko" prefWidth="116.79998779296875" text="Nazwisko lekarza" />
+                  <TableColumn fx:id="lekarz_specjalizacja" prefWidth="83.20001220703125" text="Specjalizacja" />
+                  <TableColumn fx:id="id_pokoj" prefWidth="74.39996337890625" text="ID_pokoju" />
               </columns>
             </TableView>
-            <Button fx:id="logout" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="38.0" prefWidth="74.0" text="Logout" />
+            <Button fx:id="logout" layoutX="12.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="38.0" prefWidth="74.0" text="Logout" textAlignment="CENTER" />
+            <TableView fx:id="prescriptionTable" layoutX="254.0" layoutY="26.0" prefHeight="182.0" prefWidth="372.0">
+               <columns>
+                  <TableColumn fx:id="lekarz_nazwisko_prescription" prefWidth="96.80000305175781" text="Nazwisko lekarza" />
+                  <TableColumn fx:id="pacjent_nazwisko_prescription" prefWidth="108.0" text="Nazwisko pacjenta" />
+                  <TableColumn fx:id="data_wystawienia_prescription" prefWidth="99.20001220703125" text="Data" />
+                  <TableColumn fx:id="opis_prescription" prefWidth="71.199951171875" text="Opis" />
+               </columns>
+            </TableView>
       </children>
     </AnchorPane>
   </children>
     <stylesheets>
-        <URL value="@Style.css" />
+        <URL value="@../CSS/Style.css" />
     </stylesheets>
 </VBox>
