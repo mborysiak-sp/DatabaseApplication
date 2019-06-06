@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import java.sql.Connection;
@@ -40,6 +41,7 @@ public class Login {
                 {
                     root = FXMLLoader.load(getClass().getResource("/Views/Admin.fxml"));
                     scene = new Scene(root, 1280, 480);
+                    primaryStage.getIcons().add(new Image("/Data/favicon.png"   ));
                     primaryStage.setTitle("【Ａｄｍｉｎ　ｐａｎｅｌ】");
                 }
 
@@ -47,6 +49,7 @@ public class Login {
                 {
                     root = FXMLLoader.load(getClass().getResource("/Views/User.fxml"));
                     primaryStage.setTitle("【Ｕｓｅｒ　Ｐａｎｅｌ】");
+                    primaryStage.getIcons().add(new Image("/Data/favicon.png"));
                     scene = new Scene(root, 640, 480);
                 }
                 primaryStage.setScene(scene);

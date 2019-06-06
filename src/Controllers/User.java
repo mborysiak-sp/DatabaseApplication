@@ -11,6 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.sql.*;
@@ -89,6 +90,7 @@ public class User {
         Stage stage = (Stage)appointmentTable.getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/Views/Login.fxml"));
         Scene scene = new Scene(root, 640, 480);
+        stage.getIcons().add(new Image("/Data/favicon.png"));
         stage.setScene(scene);
     }
 }

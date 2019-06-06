@@ -18,7 +18,7 @@
             <PasswordField id="password" fx:id="password" layoutX="245.0" layoutY="212.0" prefHeight="26.0" prefWidth="150.0" />
             <Label layoutX="141.0" layoutY="169.0" prefHeight="26.0" prefWidth="90.0" text="Ｕｓｅｒｎａｍｅ" textAlignment="CENTER" />
             <Label layoutX="141.0" layoutY="210.0" prefHeight="26.0" prefWidth="90.0" text="Ｐａｓｓｗｏｒｄ" textAlignment="CENTER" />
-            <Label fx:id="wrong_password" layoutX="392.0" layoutY="212.0" prefHeight="26.0" prefWidth="169.0" visible="false">
+            <Label fx:id="wrong_password" layoutX="414.0" layoutY="214.0" prefHeight="20.0" prefWidth="170.0" visible="false">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>

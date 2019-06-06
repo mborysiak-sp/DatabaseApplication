@@ -13,6 +13,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import javafx.event.ActionEvent;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.net.URL;
@@ -164,6 +165,7 @@ public class Admin implements Initializable {
         Stage stage = (Stage)adminTable.getScene().getWindow();
         Parent root = FXMLLoader.load(getClass().getResource("/Views/Login.fxml"));
         Scene scene = new Scene(root, 640, 480);
+        stage.getIcons().add(new Image("/Data/favicon.png"));
         stage.setScene(scene);
     }
 }

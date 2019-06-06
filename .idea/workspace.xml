@@ -2,35 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Models/PrescriptionTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6384aebb-ea3d-4ea5-aa16-c037f6f10f30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6384aebb-ea3d-4ea5-aa16-c037f6f10f30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/storage_v2/_src_/database/Project.-eLIUA/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/storage_v2/_src_/database/Project.-eLIUA/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/storage_v2/_src_/database/Project.-eLIUA/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/storage_v2/_src_/database/Project.-eLIUA/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/DBConnector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Controllers/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Models/LoggingTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Models/LoggingTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/Main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/User.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/Views/background2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatabaseApplication/background.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/DBConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/LoggingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/LoggingTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/User.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/User.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/background2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/background2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mssql-jdbc-7.2.1.jre8.jar" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,47 +70,7 @@
         <item name="Project: database" type="ccb7ac2a:MsImplModel$Database" />
         <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lekarz: table" type="63ab2ba1:MsImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Project: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="pacjent: table" type="63ab2ba1:MsImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Project: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="pokoj: table" type="63ab2ba1:MsImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Project: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="recepta: table" type="63ab2ba1:MsImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Project: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="skierowanie: table" type="63ab2ba1:MsImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="Project: database" type="ccb7ac2a:MsImplModel$Database" />
-        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="wizyta: table" type="63ab2ba1:MsImplModel$Table" />
+        <item name="user: table" type="63ab2ba1:MsImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -180,46 +126,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/User.java">
+        <entry file="file://$PROJECT_DIR$/src/Views/Login.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Views/User.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="143" selection-start-line="14" selection-start-column="143" selection-end-line="14" selection-end-column="143" />
-            </state>
-          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://6384aebb-ea3d-4ea5-aa16-c037f6f10f30/database/Project/schema/dbo/table/user.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="dbSrc:///ecdf277b/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/database/Project/schema/dbo/routine/wizyty.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/AdminTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+            <state relative-caret-position="527">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,19 +167,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://6384aebb-ea3d-4ea5-aa16-c037f6f10f30/database/Project/schema/dbo/table/wizyta">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/DBConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://6384aebb-ea3d-4ea5-aa16-c037f6f10f30/database/Project/schema/dbo/table/user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+              <caret selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,17 +181,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/console.sql">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="114" selection-start-line="114" selection-end-line="116" selection-end-column="148" />
+            <state relative-caret-position="1326">
+              <caret line="92" column="58" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="73" column="143" selection-start-line="73" selection-start-column="143" selection-end-line="73" selection-end-column="143" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -304,25 +264,27 @@
         <option value="$PROJECT_DIR$/src/Views/Admin.fxml" />
         <option value="$PROJECT_DIR$/src/Views/Main.fxml" />
         <option value="$PROJECT_DIR$/src/Views/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Models/LoggingTable.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/DBConnector.java" />
-        <option value="$PROJECT_DIR$/src/Controllers/Admin.java" />
         <option value="$PROJECT_DIR$/src/Views/Style.css" />
         <option value="$PROJECT_DIR$/src/CSS/Style.css" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/console.sql" />
         <option value="$PROJECT_DIR$/src/Models/PrescriptionTable.java" />
         <option value="$PROJECT_DIR$/src/Views/User.fxml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Controllers/Admin.java" />
         <option value="$PROJECT_DIR$/src/Controllers/User.java" />
         <option value="$PROJECT_DIR$/src/Controllers/Login.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/console.sql" />
+        <option value="$PROJECT_DIR$/src/QueryProjekt.sql" />
+        <option value="$PROJECT_DIR$/src/Controllers/DBConnector.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="156" />
+    <option name="y" value="2" />
+    <option name="width" value="1440" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -333,6 +295,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,8 +343,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,10 +356,10 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558959945547" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559324149833" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab9" />
+    <property name="last_opened_file_path" value="D:/Downloads/DFSBFS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -411,8 +373,8 @@
       <recent name="C:\Users\marci\IdeaProjects\DatabaseApplication\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\marci\IdeaProjects\DatabaseApplication\src" />
       <recent name="C:\Users\marci\IdeaProjects\DatabaseApplication\src\Data" />
+      <recent name="C:\Users\marci\IdeaProjects\DatabaseApplication\src" />
       <recent name="C:\Users\marci\IdeaProjects\DatabaseApplication\src\CSS" />
       <recent name="C:\Users\marci\IdeaProjects\DatabaseApplication\src\Views" />
       <recent name="C:\Users\marci\IdeaProjects\Project\src\Views" />
@@ -523,17 +485,25 @@
       <workItem from="1558866442495" duration="7337000" />
       <workItem from="1558881837511" duration="13161000" />
       <workItem from="1558946215807" duration="8101000" />
-      <workItem from="1558959981375" duration="351000" />
+      <workItem from="1558959981375" duration="1502000" />
+      <workItem from="1558964008733" duration="614000" />
+      <workItem from="1558973244292" duration="946000" />
+      <workItem from="1559228566911" duration="604000" />
+      <workItem from="1559321314797" duration="1901000" />
+      <workItem from="1559496991646" duration="37000" />
+      <workItem from="1559503602970" duration="2010000" />
+      <workItem from="1559566974149" duration="2883000" />
+      <workItem from="1559676603373" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69396000" />
+    <option name="totallyTimeSpent" value="79578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13085938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.104166664" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -559,11 +529,12 @@
       <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="17" />
       <window_info anchor="bottom" id="Terminal" order="18" weight="0.32152975" />
+      <window_info anchor="bottom" id="SQL Generator" order="19" visible="true" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.19270833" />
+      <window_info anchor="right" id="Database" order="4" weight="0.30769232" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
@@ -669,45 +640,7 @@
     <entry file="file://$PROJECT_DIR$/src/Views/addEdit.fxml" />
     <entry file="file://$PROJECT_DIR$/src/Views/addEditCopy.fxml" />
     <entry file="file://$PROJECT_DIR$/src/Controllers/addEdit.java" />
-    <entry file="file://$PROJECT_DIR$/src/Views/Admin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Views/Main.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/Data/background2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/DBConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="55" column="11" selection-start-line="54" selection-end-line="55" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/AdminTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/LoggingTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -761,24 +694,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/background.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/Views/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CSS/Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -824,24 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/User.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="143" selection-start-line="14" selection-start-column="143" selection-end-line="14" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://6384aebb-ea3d-4ea5-aa16-c037f6f10f30/database/Project/schema/dbo/table/user.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -866,17 +763,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/User.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/image/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="16422">
+          <caret line="1109" selection-start-line="1109" selection-end-line="1109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/background2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/Admin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6384aebb-ea3d-4ea5-aa16-c037f6f10f30/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" selection-start-line="114" selection-end-line="116" selection-end-column="148" />
+        <state relative-caret-position="833">
+          <caret line="49" column="68" selection-start-line="49" selection-start-column="68" selection-end-line="49" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueryProjekt.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/Login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/User.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/AdminTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/DBConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="92" column="58" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="73" column="143" selection-start-line="73" selection-start-column="143" selection-end-line="73" selection-end-column="143" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,10 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controllers/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/Controllers/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
+        <state relative-caret-position="293">
+          <caret line="155" column="23" selection-start-line="155" selection-start-column="23" selection-end-line="155" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
